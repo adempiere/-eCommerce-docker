@@ -27,6 +27,6 @@ docker run -it -d \
 	-e "API_HOST=localhost" \
 	-e "SERVER_PORT=3000" \
 	-e "SERVER_HOST=localhost" \
-	-e "VS_ENV=prod"
+	-e "VS_ENV=prod" \
 	erpya/ecommerce
 ```
