@@ -21,7 +21,7 @@ Run the latest container with:
 
 ```shell
 docker run -it -d \
-    --name Proxy-ADempiere-API \
+    --name eCommerce-ADempiere \
 	-p 3000:3000 \
 	-e "API_PORT=8085" \
 	-e "API_HOST=localhost" \
