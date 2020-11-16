@@ -1,7 +1,7 @@
 {
   "server": {
     "host": "SERVER_HOST",
-    "port": SERVER_PORT,
+    "port": "SERVER_PORT",
     "protocol": "http",
     "api": "api",
     "devServiceWorker": false,

@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-LABEL maintainer="EdwinBetanc0urt@outlook.com; rMunoz@erpya.com; ySenih@erpya.com" \
+LABEL maintainer="elsiosanches@gmail.com; EdwinBetanc0urt@outlook.com; rMunoz@erpya.com; ySenih@erpya.com" \
         description="Front-end e-commerce for ADempiere"
 
 ARG BASE_VERSION="1.12.2"
@@ -14,7 +14,7 @@ ENV VS_ENV=prod \
         SERVER_PORT="3000" \
         API_HOST="localhost" \
         API_PORT="8085"
-        
+
 
 WORKDIR /var/www
 
